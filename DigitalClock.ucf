@@ -1,0 +1,38 @@
+
+
+NET "LED[0]" LOC = A9;
+NET "LED[1]" LOC = B10;
+NET "LED[2]" LOC = A10;
+NET "LED[3]" LOC = C10;
+NET "LED[4]" LOC = C11;
+NET "LED[5]" LOC = A11;
+NET "LED[6]" LOC = B12;
+NET "clear" LOC = E6;
+NET "clock" LOC = N9;
+
+
+
+
+NET "dd[7]" LOC = L13;
+NET "dd[6]" LOC = J12;
+
+NET "dd[5]" LOC = N13;
+NET "dd[4]" LOC = M13;
+
+NET "dd[3]" LOC = K13;
+NET "dd[2]" LOC = J13;
+
+NET "dd[1]" LOC = H13;
+NET "dd[0]" LOC = G13;
+
+
+NET "ss" LOC = H7;
+NET "ss" CLOCK_DEDICATED_ROUTE = FALSE;
+
+# PlanAhead Generated physical constraints 
+
+NET "lock" LOC = F9;
+NET "lock" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "readdata" LOC = E9;
+NET "readdata" CLOCK_DEDICATED_ROUTE = FALSE;

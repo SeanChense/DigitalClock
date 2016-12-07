@@ -1,0 +1,9 @@
+MODULE pong_top
+	SUBMODULE vga_int
+		INSTANCE vga_inst
+	SUBMODULE cntrl
+		INSTANCE cntrl_inst
+	SUBMODULE read_ps2
+		INSTANCE read_ps2_inst
+	SUBMODULE game_title
+		INSTANCE title_inst

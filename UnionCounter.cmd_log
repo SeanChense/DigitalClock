@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Counter.vhd -lib work CounterUnion.vhd -prj DigitalClock -o UnionCounter.spl -module UnionCounter -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a UnionCounter.spl D:/DigitalClock/UnionCounter.sym 

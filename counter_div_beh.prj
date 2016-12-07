@@ -1,0 +1,2 @@
+vhdl work "Counter.vhd"
+vhdl work "counter_div.vhd"

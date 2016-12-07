@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Acer\Desktop\DigitalClock\DigitalClock.ncd
+OUTFILE=C:\Users\Acer\Desktop\DigitalClock\DigitalClock.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s200a-4ft256
+WORKINGDIR=C:\Users\Acer\Desktop\DigitalClock
+LICENSE=WebPack
+USER_INFO=_

@@ -1,0 +1,38 @@
+# Reading C:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {Counter_6_test.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Counter_6
+# -- Compiling architecture Behavioral of Counter_6
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Counter_6_test
+# -- Compiling architecture behavior of Counter_6_test
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.Counter_6_test 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: Counter_6_test.vhd(74): (vopt-1133) Type mismatch for port "count_out" in component "Counter_6" when binding to entity "Counter_6".
+# 
+# ** Error: Counter_6.vhd(42): Vopt Compiler exiting
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./Counter_6_test.fdo PAUSED at line 28
+# Load canceled

@@ -1,0 +1,41 @@
+-- Copyright(C) 2009 by Xilinx, Inc. All rights reserved. 
+-- The files included in this design directory contain proprietary, confidential information of 
+-- Xilinx, Inc., are distributed under license from Xilinx, Inc., and may be used, copied 
+-- and/or disclosed only pursuant to the terms of a valid license agreement with Xilinx, Inc. 
+-- This copyright notice must be retained as part of this text at all times. 
+
+
+Description: stopwatch.edf is a top level EDIF netlist of a simple runners stopwatch design.
+ 
+In the runner’s stopwatch design, there are five external inputs and four external output
+buses. The system clock is an externally generated signal. The following list summarizes
+the input and output signals of the design.
+
+Inputs:
+
+• strtstop : Starts and stops the stopwatch. This is an active low signal which acts like the
+start/stop button on a runner’s stopwatch.
+
+• reset : Puts the stopwatch in clocking mode and resets the time to 0:00:00.
+
+• clk : Externally generated system clock. 
+
+• mode : Toggles between clocking and timer modes. This input is only functional while the
+clock or timer is not counting.
+
+• lap_load : This is a dual function signal. In clocking mode it displays the current clock value in
+the ‘Lap’ display area. In timer mode it loads the pre assigned values from the ROM to
+the timer display when the timer is not counting.
+
+
+Outputs:
+• lcd_e, lcd_rs, lcd_rw : These outputs are the control signals for the LCD display of the Spartan-3A demo board used to display the stopwatch times.
+
+• sf_d[7:0] : Provides the data values for the LCD display.
+
+
+For support information and contacts please see:
+
+	http://support.xilinx.com
+or
+	http://support.xilinx.com/support/services/contact_info.htm

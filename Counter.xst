@@ -1,0 +1,5 @@
+set -tmpdir "D:/DigitalClock/xst/projnav.tmp"
+set -xsthdpdir "D:/DigitalClock/xst"
+elaborate
+-ifn Counter.prj
+-ifmt mixed

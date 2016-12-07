@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Acer/Desktop/DigitalClock/div_test_isim_beh.exe" -prj "C:/Users/Acer/Desktop/DigitalClock/div_test_beh.prj" "work.div_test" 
